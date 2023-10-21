@@ -1,6 +1,10 @@
-num = 25
-dec = 10.69
+import logging
 
-def func(a, b):
-    return a**2 + b
+# replacing stdout of print with logging
 
+def add(a, b):
+    return a + b
+
+
+logging.warning(f"function to add two numbers: add(5, 7) -> {add(5, 7)}")
+    
