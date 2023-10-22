@@ -11,8 +11,13 @@ def add(a, b):
 def multiply(a, b):
     return a * b
 
+
 def minus(a, b):
     return a - b
+
+def power(a, b):
+    return pow(a, b)
+
 
 logging.warning(f"function to add two numbers: add(5, 7) -> {add(5, 7)}")
 
