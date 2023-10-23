@@ -5,6 +5,7 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s:%(name)s:%(asctime
 
 # replacing stdout of print with logging
 
+
 def add(a, b):
     return a + b
 
